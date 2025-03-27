@@ -1,0 +1,39 @@
+
+.back{
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  
+
+}
+
+.sec7{
+    margin-top: 5em;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 5em;
+}
+
+
+.perfils{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+
+}
+
+
+
+
+
+.perfil{
+    border-radius: 50%;
+}

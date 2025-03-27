@@ -1,0 +1,251 @@
+body{
+    background-color: var(--bs-body-bg)
+}
+
+.titulo{
+    color: white;
+    font-family: 'Cormorant Infant';
+    font-size: 1em;
+    font-weight: 900;
+
+}
+
+.sub{
+    color: var(--highlight);
+}
+
+
+.texto{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    color: white;
+}
+
+
+.conteudo-banner {
+    background-image: url('../imagens/bg/bg-hero-section.webp');
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    min-height: 400px; /* Garante que a div tenha pelo menos 400px de altura */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+}
+
+
+
+
+
+.banner-btn{
+    display: flex;
+    gap: 0.5em; 
+}
+
+.cta-btn {
+    border: 2px solid white; /* Borda branca */
+    border-radius: 25px; /* Bordas arredondadas */
+    background-color: transparent; /* Fundo transparente */
+    color: white; /* Cor do texto do botão */
+    padding: 0.8em 2em; /* Preenchimento responsivo (em) */
+    font-size: 1rem; /* Tamanho da fonte em rem */
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    width: 25%; 
+    margin: 1em 0; 
+    padding-left: 2em; 
+    display: flex; 
+    text-align: center; 
+}
+
+
+.cta-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Adiciona um efeito de hover com fundo levemente transparente */
+}
+
+
+.cta-btn a {
+    color: inherit; /* Herda a cor do botão */
+    text-decoration: none; /* Remove sublinhado do link */
+    display: inline-block;
+    width: 100%; /* Ocupa toda a largura do contêiner */
+}
+
+.cta-btn:hover {
+    background-color: transparent; /* Fica transparente quando passar o mouse */
+    color: white; 
+}
+
+
+
+.cta-btn.me-3{
+    background-color: antiquewhite;
+    color: red;
+}
+
+
+.cta-btn.me-3:hover{
+    background-color: transparent; 
+    color: white
+}
+
+
+
+.cta-btn.prime {
+    color: white; /* Cor do texto branco */
+    background-color: transparent; /* Fundo transparente */
+
+}
+
+
+.cta-btn.prime:hover {
+    background-color: red; /* Fundo vermelho ao passar o mouse */
+    color: white; /* Texto branco quando o fundo ficar vermelho */
+}
+
+.cta-btn i {
+    transition: transform 0.3s ease;
+}
+
+
+
+/* secao 2 */
+
+
+.historia{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding-top: 2em;
+}
+
+
+.historia-titulo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secao1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.titulo-sec2{
+    font-family: 'Signika';
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+
+
+.sub2{
+    color: var(--secondary);
+    font-family: 'Cormorant Infant';
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .conteudo-banner {
+        min-height: 300px; /
+    }
+    .cta-btn{
+        width: 30%
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo-banner {
+        min-height: 200px; 
+        padding: 0;
+    }
+
+    .cta-btn{
+        width: 50%
+    }
+}
+
+
+
+
+@media (min-width: 1000px) {
+    .conteudo-banner{
+        height: 100vh;
+        padding-left: 8em; 
+    }
+
+    .cta-btn{
+        width: 20%
+    }
+
+    .historia{
+        flex-direction: column;
+    }
+
+    .secoes{
+        display: flex;
+        gap: 4em;
+        align-items: center;
+    }
+
+    
+}
+
+
+
+@media (max-width: 575px) {
+    h4 {
+        font-family: 'Signika';
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 767px) {
+    h4 {
+        font-family: 'Signika';
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 38px;
+    }
+}
+@media (max-width: 991px) {
+    h4 {
+        font-family: 'Signika';
+        font-size: 28px;
+        font-weight: 800;
+    }
+}
+@media (max-width: 1199px) {
+    h4 {
+        font-family: 'Signika';
+        font-size: 30px;
+        font-weight: 800;
+    }
+}
+@media (max-width: 1399px) {
+    h4 {
+        font-family: 'Signika';
+        font-size: 36px;
+        font-weight: 800;
+    }
+}
+h4 {
+    font-family: 'Signika';
+    font-size: 36px;
+    font-weight: 800;
+}

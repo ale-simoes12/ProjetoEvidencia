@@ -1,0 +1,76 @@
+.cabeçalho-icon{
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+.cabecalho-login{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.cabecalho-contato{
+    display: flex;
+    gap: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+}
+
+
+.icon{
+    height: 3em; /* Ajusta conforme o tamanho do texto */
+    width: auto;
+}
+
+.login-incone{
+    margin: 0;
+    color: var(--white-color);
+}
+/* navbar */
+#nav-id{
+    height: 6em;
+    /* padding-bottom: 5em; */
+}
+.navbar {
+    border-top: 2px ;
+   
+
+}
+.navbar-toggler {
+    border: none; /* Remove borda do botão hambúrguer */
+}
+
+
+
+.navbar-collapse {
+    justify-content: center; /* Centraliza os links */
+}
+.navbar-icons {
+    display: flex;
+    gap: 10px;
+}
+.navbar-icons img {
+    width: 24px;
+    height: 24px;
+}
+@media (max-width: 992px) {
+
+
+    .navbar-collapse {
+        background-color: var(--bs-body-bg);
+        position: absolute;
+        top: 100%;
+        left: 50%; /* Move a navbar para o centro da tela */
+        transform: translateX(-50%); /* Ajusta a posição para centralizar */
+        width: 50%; /* Deixa a largura automática com base no conteúdo */
+        
+        text-align: center;
+        padding: 20px 0;
+    }
+}

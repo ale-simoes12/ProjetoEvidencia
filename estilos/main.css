@@ -1,0 +1,26 @@
+@import url("header.css");
+@import url(corpo.css);
+@import url(sec3.css);
+@import url(sec4.css);
+@import url(sec5.css);
+@import url(sec6.css);
+@import url(sec7.css);
+
+:root{
+    --body-font: "Reddit Sans", sans-serif;
+    --title-font: "Reddit Sans", sans-serif;
+    --content-font: "Reddit Sans", sans-serif;
+    --meta-font: "Reddit Sans", sans-serif;
+    --primary: #050A3A;
+    --secondary: #C00820;
+    --light: #FAF6F3;
+    --highlight: #E8DA5C;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --gray-color: #303030;
+    --light-gray-color: #A1A1A1;
+    --gray-1-color: #585858;
+}
+
+
+

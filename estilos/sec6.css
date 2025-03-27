@@ -1,0 +1,40 @@
+.conteudosec6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    gap: 1em;
+}
+
+
+.conteudoimg1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    
+}
+
+.imgs{
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+@media (min-width: 1000px) {
+.conteudosec6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20em;
+    align-items: center;
+    }
+
+}
+
+
+

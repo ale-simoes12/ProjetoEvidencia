@@ -1,0 +1,52 @@
+.sec3{
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    gap: 2em;
+
+}
+
+.secconteudo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#botaover{
+    width: 7em;
+    
+    
+}
+
+
+
+@media (min-width: 1000px) {
+   .sec3{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+
+   }
+
+    .secconteudo{
+        display: flex;
+        justify-content: flex-start;
+        text-align: start;
+        align-items: flex-start;
+    }
+
+
+    
+}
+
+
+
+
+
