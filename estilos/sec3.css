@@ -25,6 +25,26 @@
     
 }
 
+.data{
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+
+.valordta{
+    margin: 0;
+    align-self: center;
+}
+.traco{
+   
+    background-color: black;
+    width: 8em;
+    height: 2px;
+}
+
 
 
 @media (min-width: 1000px) {

@@ -8,6 +8,17 @@
     
 }
 
+.minha-div:hover{
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+
+#botaodrop:hover{
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+
+
 .cabecalho-login{
     display: flex;
     align-items: center;
@@ -28,9 +39,12 @@
     color: var(--white-color);
 }
 
+.imgorin{
+    height: 6em;
+}
 
 .icon{
-    height: 3em; /* Ajusta conforme o tamanho do texto */
+    height: 3em; 
     width: auto;
 }
 
@@ -38,7 +52,24 @@
     margin: 0;
     color: var(--white-color);
 }
+
+
 /* navbar */
+
+#link-menu{
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.2em;
+    
+}
+
+#popuplink{
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
 #nav-id{
     height: 6em;
     /* padding-bottom: 5em; */
