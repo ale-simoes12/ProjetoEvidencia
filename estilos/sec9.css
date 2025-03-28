@@ -1,0 +1,116 @@
+.carrosel{
+    height: auto;
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carroseltitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.swiper {
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: #FAF6F3;;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+  }
+  
+  .swiper-slide:nth-child(2) {
+    background: #FAF6F3;;
+  }
+  
+  .swiper-slide:nth-child(3) {
+    background: #FAF6F3;;
+  }
+  
+  .swiper-slide:nth-child(4) {
+    background: #FAF6F3;;
+  }
+  
+
+  .swiper-pagination-bullet {
+    width: 0.5em;
+    height: 0.5em;
+    background: gray;
+    border: 2px solid #999;
+    opacity: 1;
+    margin: 0 8px !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #cc0000; 
+    border-color: #cc0000;
+  }
+  
+  /* Estilo para os botões de navegação */
+  .swiper-button-prev, .swiper-button-next {
+    color: #ffffff;
+  }
+
+
+  .div{
+    background-color: red;
+  }
+
+  .colaborador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+    height: auto;
+  }
+
+  .imagedonos{
+    height: 5em;
+    width: 5em;
+  }
+ 
+  .descricaodono{
+    color: var(--gray-1-color);
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .nomedono{
+    color: var(--primary);
+    font-family: 'Cormorant Infant';
+    font-size: 2em;
+  }
+
+
+  .funcaodono{
+
+    color: var(--light-gray-color);
+    font-family: 'Signika';
+    font-size: 1em;
+    font-weight: 400;
+
+  }
+
+
+
+  
