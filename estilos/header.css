@@ -19,7 +19,13 @@
     gap: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+   
 
+}
+
+.textoinvisivel{
+    display: none;
+    color: var(--white-color);
 }
 
 
@@ -59,8 +65,21 @@
     width: 24px;
     height: 24px;
 }
-@media (max-width: 992px) {
 
+
+
+@media (min-width: 600px) {
+    .textoinvisivel{
+        display: block;
+        align-self: center;
+        margin: 0;
+       
+    }
+    
+}
+
+@media (max-width: 992px) {
+  
 
     .navbar-collapse {
         background-color: var(--bs-body-bg);

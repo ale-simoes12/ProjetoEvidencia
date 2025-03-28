@@ -1,0 +1,205 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    width: 100%;
+}
+
+.logofooter{
+    height: 50px;
+    width: 150px;
+}
+
+
+.footersup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 80%;
+    padding-bottom: 2em;
+}
+
+
+.futerinfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5em;
+
+}
+
+.locais{
+    width: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    gap: 2em;
+}
+
+
+
+.local{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+
+}
+
+.textof{
+    color: var(--gray-1-color);
+}
+
+.links{
+    display: flex;
+    gap: 2em;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.footerLista{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    
+
+    
+}
+
+
+.lista{
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+    text-align: left;
+}
+
+
+.footercontato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: start;
+    border-bottom: 2px solid red;
+    gap: 0.5em;
+}
+
+.inputdiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.emailinput{
+    width: 80%;
+    height: 3em;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+.circle-button {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: var(--secondary);
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.redicons{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+
+.qudrado{
+    height: 2.5em;
+    width: 2.5em;
+    border: 2px solid red;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contatosec{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3em;
+}
+
+@media (min-width: 700px) {
+    .footersup {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 5rem;
+    }
+    
+    .futerinfo {
+        grid-column: 1 / -1; 
+    }
+
+
+
+
+
+}
+
+
+@media (min-width: 1000px) {
+    .footersup{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .futerinfo{
+        width: 20%;
+    }
+    .footerLista{
+        width: 20%;
+        gap: 10em;
+    }
+
+    .footercontato{
+        display: flex;
+        flex-direction: column;
+    }
+    .contatosec{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        gap: 2em;
+    }
+     
+
+    .footerLista{
+        justify-content: center;
+    }
+
+
+    
+    
+    }
+    
