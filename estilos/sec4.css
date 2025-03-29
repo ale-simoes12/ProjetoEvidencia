@@ -30,6 +30,15 @@ gap: 2em;
  }
 
 
+ .secimg{
+   display: flex;
+   justify-content: center;
+ }
+
+ .imgssec4{
+   width: 100%;
+ }
+
 
  @media (min-width: 1000px) {
    .sec4{

@@ -96,6 +96,40 @@
     width: 24px;
     height: 24px;
 }
+/* mudando para o menu mobile */
+.divmobile{
+    display: none;
+}
+
+
+
+/* abaixando o menu no header */
+
+@media (max-width: 500px) {
+    #menumobile {
+      display: none;
+    }
+    .divmobile{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        background-color: white; 
+        top: 100%;
+    }
+
+    #navbarNav {
+        /* background-color: aqua; */
+        padding-left: 0;
+        padding-top: 0.2em;
+
+       
+    }
+    
+}
+
 
 
 
