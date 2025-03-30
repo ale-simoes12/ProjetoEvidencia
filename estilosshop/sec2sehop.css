@@ -1,0 +1,83 @@
+
+.sechop{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+.filtragem{
+
+ height: auto;
+ background-color: var(--light);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 1em;
+ width: 90%;
+ padding-left: 2em;
+ padding-right: 2em;
+ padding-top: 2em;
+ padding-bottom: 2em;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px; 
+    padding: 5px 10px;
+    background-color: transparent; 
+    width: 100%;
+    
+}
+
+.buscador input {
+    flex: 1;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent; /* Fundo transparente */
+    color: #333;
+    font-size: 16px;
+    padding: 8px;
+}
+
+
+.filtro{
+    width: 100%;
+}
+
+.barra{
+    width: 100%;
+}
+
+
+.botao-filtro{
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.tags span {
+    display: inline-block;
+    background:var(--light);
+    padding: 5px 10px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin: 5px 2px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.tags span:hover {
+    border: 2px solid var(--secondary);
+   
+}
+
+
+
+
+
