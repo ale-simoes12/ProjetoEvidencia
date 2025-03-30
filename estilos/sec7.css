@@ -24,9 +24,10 @@
 .perfils{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
+    justify-content: start;
+    text-align: start;
+    /* align-items: center; */
+    gap: 0.1em;
 
 }
 

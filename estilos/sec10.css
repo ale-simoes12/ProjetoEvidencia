@@ -141,13 +141,33 @@
 }
 
 
-
 .contatosec{
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 3em;
 }
+
+/* footer inferior */
+
+.footerinf{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    align-items: center;
+    border-top: 2px solid red;
+}
+
+
+.textorodape{
+    margin-bottom: 0;
+}
+
+
+
 
 @media (min-width: 700px) {
     .footersup {

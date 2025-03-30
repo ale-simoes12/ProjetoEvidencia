@@ -8,6 +8,8 @@
     
 }
 
+
+
 .minha-div:hover{
     border-top: 2px solid black; 
     border-bottom: 2px solid black;
@@ -100,8 +102,10 @@
 .divmobile{
     display: none;
 }
+#navbarNav{
+    margin-left: 0.5em;
 
-
+}
 
 /* abaixando o menu no header */
 
@@ -124,6 +128,8 @@
         /* background-color: aqua; */
         padding-left: 0;
         padding-top: 0.2em;
+        margin: 0;
+        margin-top: 2.5em;
 
        
     }
