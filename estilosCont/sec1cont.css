@@ -1,0 +1,124 @@
+.secaocontato{
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.infocontato{
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.div-cont{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    color:var(--primary);
+    font-weight: 700;
+    
+}
+
+.Formulario{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.nome-email{
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+#primeirosinpt{
+    flex: 1; 
+    width: 50%
+}
+
+.inputseccontato{
+    padding: 10px;
+    border: 2px solid #ddd; 
+    border-radius: 10px; 
+    font-size: 16px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #777;
+    font-weight: 700; 
+}
+
+.btn-vermelho {
+    background-color: red; 
+    color: white; 
+    border: 2px solid red; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+/* imcorporando o mapa */
+
+.map-container {
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    border: 2px solid red; 
+}
+
+.mapaincorporado{
+    width: 100%;
+}
+
+
+
+@media (max-width: 500px) {
+    .secaocontato{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .Formulario{
+        width: 100%;
+    }
+    .nome-email{
+        display: flex;
+        flex-direction: column;
+    }
+    #primeirosinpt{
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+    .secaocontato{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+    .Formulario{
+        width: 100%;
+    }
+    .nome-email{
+        display: flex;
+        
+    }
+  
+
+}
