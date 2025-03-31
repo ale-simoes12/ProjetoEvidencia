@@ -25,6 +25,9 @@
     
 }
 
+li:hover{
+    color: var(--secondary);
+}
 
   
 #falupa{
@@ -53,4 +56,22 @@
     background: var(--secondary);
     z-index: 9; 
     transition: transform 0.3s ease-out;
+  }
+
+
+ #descricaoblog{
+    font-family: "Cormorant Infant", serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+
+  #imagem-bw {
+    filter: grayscale(100%); 
+    transition: filter 0.5s ease; 
+   
+  }
+  
+  #imagem-bw:hover {
+    filter: grayscale(0%); 
   }
