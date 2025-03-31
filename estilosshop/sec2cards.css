@@ -118,6 +118,56 @@ drop */
     display: none;
 }
 
+.pairelativo{
+    position: relative;
+    width: 100%;
+}
+
+.promocao{
+    position: absolute;
+    right: 0; 
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+    
+   
+   
+
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.promocao1{
+    position: absolute;
+    text-align: center;
+    right: 0; 
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+    width: 39.5px; 
+    background-color: var(--secondary);
+    color: white;
+}
+
+
+.promocao2{
+   
+    position: absolute;
+    right: 0;
+    
+    margin-top: 3em;
+    margin-right: 0.5em;
+    background-color: #e8da5e;
+    color: black;
+
+}
+
+
+#offer{
+    background-color: #e8da5e;
+    color: black;
+}
 
 
 

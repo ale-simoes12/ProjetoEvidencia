@@ -70,6 +70,73 @@
 }
 
 
+.igmsec2{
+    position: relative; 
+    animation: movepracima  3s infinite;
+
+}
+
+.imgsec3{
+    position: relative; 
+    animation: movepracima  3s infinite;
+  }
+
+  .produto{
+    position: relative; 
+    animation: movepracima  3s infinite;
+  }
+
+  .imgvinhoab{
+    /* position: relative;  */
+    animation: movepracima2  3s infinite; 
+    /* transform: translateX(30px); */
+
+    
+  }
+
+  .imgdirblog{
+     transform: translateX(-3em);
+     z-index: -1;
+  }
+  
+  @keyframes movepracima{
+    0% {
+        transform: translateY(0) ; 
+    }
+    50% {
+        transform: translateY(30px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+  }
+
+
+  @keyframes movepracima2{
+    
+    0% {
+       
+        transform: translateY(0);
+       
+    }
+    50% {
+        
+        transform: translateY(30px);
+        
+    }
+    100% {
+        
+        transform: translateY(0);
+        
+    }
+  }
+
+
+
+
+
+   
+
 
 
 

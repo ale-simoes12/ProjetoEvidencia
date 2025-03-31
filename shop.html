@@ -66,9 +66,9 @@
 
 
                         </li>
-                        <li class="nav-item"><div class="minha-div"><a class="nav-link" id="link-menu" href="#">About Us</a></div></li>
+                        <li class="nav-item"><div class="minha-div"><a class="nav-link" id="link-menu" href="about.html">About Us</a></div></li>
                         <li class="nav-item"><div class="minha-div"><a class="nav-link" id="link-menu" href="#">Winery</a></div></li>
-                        <li class="nav-item"><div class="minha-div"><a class="nav-link" id="link-menu" href="#">Shop</a></div></li>
+                        <li class="nav-item"><div class="minha-div"  id="minhadivborda" ><a class="nav-link" id="link-menu" href="#">Shop</a></div></li>
                         <li class="nav-item"><div class="minha-div"><a class="nav-link" id="link-menu" href="blog.html">Blog</a></div></li>
                         <li class="nav-item"><div class="minha-div"><a class="nav-link" id="link-menu" href="contact.html">Contact</a></div></li>
                     </ul>
@@ -86,9 +86,9 @@
         
                 <!-- Ícones à direita -->
                 <div class="navbar-icons d-flex">
-                    <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Search">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="Heart">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="Cart">
+                    <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" class="pulos" alt="Search">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" class="pulos" alt="Heart">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" class="pulos" alt="Cart">
                 </div>
         
             </div>
@@ -100,11 +100,11 @@
     
         <!-- 1------------------------ -->
         <div class="conteudo-banner-blog">
-            <h1 class="titulopagsec">Contact</h1>
+            <h1 class="titulopagsec">Shop</h1>
             <div class="conteudobola">
                 <p class="bannersec">Home</p>
                 <div class="bolinha"></div>
-                <p class="bannersec">Contact</p>
+                <p class="bannersec">Shop</p>
             </div>
              
         </div>
@@ -118,7 +118,7 @@
 
                 <div class="buscador">
                     <input type="text" placeholder="Search products...">
-                    <i class="fa fa-search" style="font-size:24px"></i>
+                    <i class="fa fa-search" id="falupa" style="font-size:24px"></i>
                 </div>
                 
                 <h3>Categories</h3>
@@ -188,6 +188,10 @@
             <div class="dupla">
                 <div class="produtocard">
                     <!-- <span class="badge">NEW</span> -->
+                     <div class="pairelativo" >
+                        <div class="promocao">NEW</div>
+                     </div>
+                     
                     <img src="imagens/shop/wine-product-1.webp" alt="Cabernet Franc"> 
                     <div class="descricaocards">
                         <p class="product-title">Cabernet Franc</p>
@@ -198,6 +202,10 @@
                 </div>
                 <div class="produtocard">
                     <!-- <span class="badge offer">20%<span>Offer</span></span> -->
+                    <div class="pairelativo" >
+                        <div class="promocao1"  >20%</div>
+                        <div class="promocao2" >Offer</div>
+                     </div>
                     <img src="imagens/shop/wine-product-2.webp" alt="Cabernet Sauvignon">
                     <div class="descricaocards">
                         <p class="product-title">Cabernet Sauvignon</p>
@@ -221,6 +229,9 @@
                     </div>
                 </div>
                 <div class="produtocard">
+                    <div class="pairelativo" >
+                        <div class="promocao" id="offer" >Offer</div>
+                     </div>
                     <!-- <span class="badge offer">20%<span>Offer</span></span> -->
                     <img src="imagens/shop/wine-product-2.webp" alt="Cabernet Sauvignon">
                     <div class="descricaocards">
@@ -236,6 +247,9 @@
             <div class="dupla">
                 <div class="produtocard">
                     <!-- <span class="badge">NEW</span> -->
+                    <div class="pairelativo" >
+                        <div class="promocao">NEW</div>
+                     </div>
                     <img src="imagens/shop/wine-product-1.webp" alt="Cabernet Franc"> 
                     <div class="descricaocards">
                         <p class="product-title">Cabernet Franc</p>
@@ -245,6 +259,9 @@
                     </div>
                 </div>
                 <div class="produtocard">
+                    <div class="pairelativo" >
+                        <div class="promocao">NEW</div>
+                     </div>
                     <!-- <span class="badge offer">20%<span>Offer</span></span> -->
                     <img src="imagens/shop/wine-product-2.webp" alt="Cabernet Sauvignon">
                     <div class="descricaocards">
@@ -268,6 +285,9 @@
             <div class="dupla">     
                 <div class="produtocard">
                     <!-- <span class="badge">NEW</span> -->
+                    <div class="pairelativo" >
+                        <div class="promocao">NEW</div>
+                     </div>
                     <img src="imagens/shop/wine-product-1.webp" alt="Cabernet Franc"> 
                     <div class="descricaocards">
                         <p class="product-title">Cabernet Franc</p>
@@ -313,8 +333,8 @@
                 <img  class="logofooter" src="imagens/logo/logo.svg" alt="Logo" width="100">
                 <div class="locais">
                     <p class="textof" >dkbsvs  df gds dffb d f ds  d b dsf sdf f dfbb dfd</p>
-                    <a class="links" href="#" class="local" > <img src="imagens/icons/localização.png" alt="localização"> <p class="textof">Rua Demerval Lessa 483</p> </a> 
-                    <a class="links" shref="#" class="local" > <img src="imagens/icons/telefone_vermelho.png" alt="telefone"><p class="textof">(11)884959389389835</p></a>
+                    <a class="links" href="#" class="local" > <img class="pulos" src="imagens/icons/localização.png" alt="localização"> <p class="textof">Rua Demerval Lessa 483</p> </a> 
+                    <a class="links" shref="#" class="local" > <img class="pulos" src="imagens/icons/telefone_vermelho.png" alt="telefone"><p class="textof">(11)884959389389835</p></a>
                 </div> 
             </div>
             <!-- div 2 -->
@@ -384,9 +404,11 @@
      </footer>
 
 
-    <!-- importando o swiper -->
 
+     <div class="bola bola1"></div> 
+    <div class="bola bola2"></div> 
 
+    <script src="script/script2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {

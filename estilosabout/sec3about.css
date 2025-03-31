@@ -1,0 +1,74 @@
+.sec3total{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+}
+
+
+.tituloconteudo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.conteudo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light);
+    padding-top: 1em;
+    gap: 2em;
+}
+
+.conteudo31{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.iconmaistitulo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+#imgiconsec3{
+    width: 3em;
+    height: 3em;
+}
+
+
+.textopsec3{
+    padding-left: 3em;
+}
+
+#vinhoamarelo{
+    background-color: #f8f2d0;
+    width: 17em; 
+    height: 17em;
+}
+
+#imgvinhoama{
+    padding-right: 1em;
+    height: 30em;
+    width: auto;
+}
+
+@media (min-width: 700px) {
+    .conteudo3{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+}

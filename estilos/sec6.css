@@ -25,6 +25,29 @@
 
 
 
+.vinhosec6 {
+    width: 15em; 
+    height: 15em;
+    background-color: #f8c8dc; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+
+
+.vinhocombola{
+    height: 30em;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+
+
+
 @media (min-width: 1000px) {
 .conteudosec6{
     display: flex;

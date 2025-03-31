@@ -58,12 +58,49 @@ gap: 2em;
      flex-direction: column-reverse;
      gap: 5em;
       
-  } 
-   
- 
- 
+  }
+  
+  
      
  }
+
+
+  /* animacao */
+ .imgssec4{
+  position: relative; 
+  animation: moveDireitaVolta 3s infinite;
+
+}
+
+#imgani2{
+  position: relative; 
+  animation: moveEsquerdaVolta  3s infinite;
+}
+
+@keyframes moveEsquerdaVolta {
+  0% {
+      transform: translateX(0); 
+  }
+  50% {
+      transform: translateX(-30px); 
+  }
+  100% {
+      transform: translateX(0); 
+  }
+}
+ 
+
+ @keyframes moveDireitaVolta {
+  0% {
+      transform: translateX(0); 
+  }
+  50% {
+      transform: translateX(30px); 
+  }
+  100% {
+      transform: translateX(0); 
+  }
+}
  
 
 

@@ -8,6 +8,30 @@
     
 }
 
+#minhadivborda{
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+
+
+#minhadivborda2{
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+
+
+#minhadivborda3{
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+
+
+#minhadivborda4{
+    border-top: 2px solid black; 
+    border-bottom: 2px solid black;
+}
+
+
 
 
 .minha-div:hover{
@@ -64,6 +88,17 @@
     font-size: 1.2em;
     
 }
+
+/* #link-menu-shop{
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.2em;
+    
+} */
+
+
+
+
 
 #popuplink{
     color: var(--primary);
@@ -164,3 +199,75 @@
         padding: 20px 0;
     }
 }
+
+
+
+
+/* animaçoes header */
+
+.icon{
+    display: inline-block; 
+    animation: pulsar 1.5s infinite ease-in-out; 
+
+}
+
+.pulos{
+    display: inline-block; 
+    animation: pulsar 1.5s infinite ease-in-out; 
+
+}
+
+.fa{
+   color: var(--secondary);
+    display: inline-block; 
+    animation: pulsar 1.5s infinite ease-in-out;
+   
+
+}
+.flechamenus{
+    display: inline-block; 
+    animation: pulsar 1.5s infinite ease-in-out;
+   
+
+}
+
+
+@keyframes pulsar {
+    0% { transform: scale(1); } 
+    50% { transform: scale(1.2); } 
+    100% { transform: scale(1); }
+  }
+
+
+
+
+.discover{
+    display: flex;
+    gap: 1em;
+    color: var(--secondary);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.circle-button{
+    animation: bgPulse 1s infinite ease-in-out;
+}
+
+
+
+.bolinha{
+    animation: bgPulse 1s infinite ease-in-out;
+
+}
+
+
+
+
+  @keyframes bgPulse {
+    0%, 100% {
+      background-color: rgba(255, 0, 0, 0); /* Vermelho transparente (alpha 0) */
+    }
+    50% {
+      background-color:var(--secondary); /* Vermelho semi-sólido (alpha 0.7) */
+    }
+  }

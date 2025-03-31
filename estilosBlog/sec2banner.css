@@ -12,6 +12,22 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 1em;
+    width: 90%;
+    align-items: center;
     padding-top: 2em;
     padding-bottom: 2em;
+}
+
+
+
+.blogcards{
+    display: flex;
+    justify-content: center;
+}
+
+
+#cardblog{
+    flex: 1 1 calc(33.33% - 16px);
+    max-width: calc(33.33% - 16px);
+    min-width: 250px; 
 }
