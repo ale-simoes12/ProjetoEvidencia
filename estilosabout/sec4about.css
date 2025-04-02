@@ -44,10 +44,10 @@
 
 
 .img21div{
-    background-color: black;
-    background-image: url('/imagens/galeria/gallery-image-4-small.webp');
     width: 20em;
     height: 12em;
+    background-image: url('/imagens/galeria/gallery-image-4');
+    
 }
 .img22div{
     background-color: black;

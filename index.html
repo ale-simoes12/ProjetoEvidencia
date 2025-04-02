@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="estilosshop/mainshop.css">
-    <title>Document</title>
+    <title>Cowine-Wine Store</title>
 </head>
 <body>
     <header  class="cabeçalho">
@@ -139,10 +139,12 @@
                 
                 
                 </div>
-
-                <div class="secao2">
-                    <img class="igmsec2" src="imagens/features/wine-fresh-image.webp" alt="uva">
+                
+                
+                <div class="secao2" id="margemuva" >
+                    <img class="igmsec2" id="uvamenor" src="imagens/features/wine-fresh-image.webp" alt="uva">
                 </div>
+                
 
 
                 <div class="secao1">
@@ -191,7 +193,7 @@
         <img class="folhaesqre" src="imagens/bg/wine-story-left-bg.webp" alt="wsr" >
 
     <div class="sec4sex1">
-        <img class="imgssec4" src="imagens/section/discover-image.webp" alt="vinho1">
+        <img class="imgssec4"  id="diminuirvinho" src="imagens/section/discover-image.webp" alt="vinho1">
         <div class="conteudo-sec4">
             <img src="imagens/icons/design-vector.svg" class="img-sep" alt="separador">
             <h5 class="sec3Titulo" >Cowine Vine</h5>
@@ -201,7 +203,7 @@
     </div>
     </div>
         <div class="sec4sex2">
-            <img class="imgssec4" id="imgani2" src="imagens/section/smooth-wine-image.webp" alt="vinho2">
+            <img class="imgssec4 diminuir"  id="imgani2" src="imagens/section/smooth-wine-image.webp" alt="vinho2">
             <div class="conteudo-sec4">
                 <img src="imagens/icons/design-vector.svg" alt="separador">
                 <h5 class="sec3Titulo" >Cowine Vine</h5>
@@ -258,15 +260,18 @@
     <!-- 6------------------------ -->
     <!-- titulo -->
 
-    <div class="conteudo-sec4">
+    <div class="conteudo-sec4" >
         <img src="imagens/icons/design-vector.svg" alt="separador">
         <h5 class="sec3Titulo" >Cowine Vine</h5>
         <h4 class="sec3sec">FINE WINE, SPIRITS GOURMET <span class="sec3span">SINCE 1968</span></h4>
         <p class="descricao">Lorem Ipsum is simply dummy text of the printing.</p>
     </div>  
+   
 
 
+    <div class="totalsec6">
 
+     
     <div class="conteudosec6">
 
         <div class="vinhocombola">
@@ -281,13 +286,13 @@
 
 
             <div class="conteudoimg1">
-                <img src="imagens/icons/ic-varietals.svg"  class="imgs" alt="trevo"> 
+                <img src="imagens/icons/ic-varietals.svg" class="imgs" alt="trevo"> 
                 <h5>5</h5>
                 <p>Varitals</p>   
             </div>
 
             <div class="conteudoimg1">
-                <img src="imagens/icons/ic-happy-coutomer.svg" class="imgs" alt="costumers"> 
+                <img src="imagens/icons/ic-happy-coutomer.svg"  class="imgs" alt="costumers"> 
                 <h5>2200</h5>
                 <p>Happy Custumers</p>   
             </div>
@@ -309,6 +314,8 @@
             </div>
         </div>
     </div>
+
+</div>s
    
 
 
@@ -562,7 +569,6 @@
      </footer>
 
 
-    <!-- importando o swiper -->
     
 
     <div class="bola bola1"></div> 
@@ -574,19 +580,14 @@
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const swiper = new Swiper('.swiper', {
-          // Parâmetros de configuração
           loop: true,
           speed: 500,
           spaceBetween: 0,
           centeredSlides: true,
-          
-          // Paginação (botões circulares)
           pagination: {
             el: '.swiper-pagination',
             clickable: true,
           },
-          
-          // Navegação (setas)
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',

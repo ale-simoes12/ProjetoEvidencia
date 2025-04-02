@@ -39,12 +39,59 @@ gap: 2em;
    width: 100%;
  }
 
+ .secoes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ @media (max-width: 850px) {
+  .sec4sex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec3sec{
+    text-align: center;
+  }
+  .sec4sex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   #diminuirvinho{
+    width: 80%;
+   }
+   .diminuir{
+    width: 80%;
+   }
+   .descricao{
+    text-align: center;
+   }
+   h5{
+    margin-left: 1em; 
+   }
+
+   p{
+    margin-left: 0;
+    margin-left: 0.5em; 
+   }
+   .discover{
+    margin-left: 1em;
+   }
+
+
+ }
+
 
  @media (min-width: 1000px) {
    .sec4{
     display: flex;
     flex-direction: row;
    }
+   
 
    .sec4sex1{
     display: flex;
@@ -59,6 +106,14 @@ gap: 2em;
      gap: 5em;
       
   }
+
+  .secoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+   }
   
   
      
@@ -74,8 +129,28 @@ gap: 2em;
 
 #imgani2{
   position: relative; 
-  animation: moveEsquerdaVolta  3s infinite;
+  animation: moveEsquerdaeVolta   3s infinite;
 }
+
+
+
+
+@keyframes moveEsquerdaeVolta {
+  0% {
+      transform: translateX(0); 
+  }
+  50% {
+      transform: translateX(-30px); 
+  }
+  100% {
+      transform: translateX(0); 
+  }
+}
+ 
+
+
+
+
 
 @keyframes moveEsquerdaVolta {
   0% {

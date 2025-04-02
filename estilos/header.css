@@ -174,7 +174,7 @@
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     .textoinvisivel{
         display: block;
         align-self: center;
@@ -191,9 +191,9 @@
         background-color: var(--bs-body-bg);
         position: absolute;
         top: 100%;
-        left: 50%; /* Move a navbar para o centro da tela */
-        transform: translateX(-50%); /* Ajusta a posição para centralizar */
-        width: 50%; /* Deixa a largura automática com base no conteúdo */
+        left: 50%; 
+        transform: translateX(-50%); 
+        width: 50%; 
         
         text-align: center;
         padding: 20px 0;

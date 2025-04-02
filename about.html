@@ -182,10 +182,6 @@
             </div>
 
 
-
-
-
-
           </div>
 
         </div>
@@ -236,11 +232,22 @@
 
          <div class="videoconteudo">
             <button class="play-btn">
-                <img src="imagens/icons/playicon.png"  class="botonplay" alt="botao play">
+                <img src="imagens/icons/playicon.png"  onclick="openVideoPopup()" class="botonplay" alt="botao play">
             </button>
          </div>
 
 
+
+
+    <div id="videoPopup" class="popup">
+        <span class="close-btn" onclick="closeVideoPopup()">&times;</span>
+        <div class="popup-content">
+            
+            <div class="youtube-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ac559iPwbEs?si=rJg1qSkUGp5iSBqV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
          
 
 
@@ -341,7 +348,7 @@
 
  <div class="bola bola1"></div> 
  <div class="bola bola2"></div> 
-
+ <script src="script/script3.js"></script>
  <script src="script/script2.js"></script>
 
 </body>
