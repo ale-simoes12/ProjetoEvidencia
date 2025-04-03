@@ -62,7 +62,27 @@
     width: auto;
 }
 
-@media (min-width: 700px) {
+
+
+/* @media (max-width:800px) {
+    .conteudo3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+} */
+
+@media (max-width: 500px) {
+    #imagemblogjuntovinho{
+        width: 15em;
+
+    }
+   
+
+
+}
+
+@media (min-width: 850px) {
     .conteudo3{
         width: 70%;
         display: flex;

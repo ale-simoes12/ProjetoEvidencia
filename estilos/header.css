@@ -39,6 +39,10 @@
     border-bottom: 2px solid black;
 }
 
+#botaodrop{
+    z-index: 100;
+}
+
 #botaodrop:hover{
     border-top: 2px solid black; 
     border-bottom: 2px solid black;
@@ -117,13 +121,13 @@
 
 }
 .navbar-toggler {
-    border: none; /* Remove borda do botão hambúrguer */
+    border: none; 
 }
 
 
 
 .navbar-collapse {
-    justify-content: center; /* Centraliza os links */
+    justify-content: center; 
 }
 .navbar-icons {
     display: flex;
@@ -133,7 +137,7 @@
     width: 24px;
     height: 24px;
 }
-/* mudando para o menu mobile */
+
 .divmobile{
     display: none;
 }
@@ -142,7 +146,7 @@
 
 }
 
-/* abaixando o menu no header */
+
 
 @media (max-width: 500px) {
     #menumobile {
@@ -161,6 +165,8 @@
 
     #navbarNav {
         /* background-color: aqua; */
+        /* position: relative; */
+        z-index: 9999; 
         padding-left: 0;
         padding-top: 0.2em;
         margin: 0;

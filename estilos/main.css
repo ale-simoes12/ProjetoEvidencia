@@ -187,7 +187,12 @@ li:hover{
 
 
 
-
+  .rodape{
+    position: relative;
+  }
+  /* .footersup{
+    position: relative;
+  } */
 
   .imgdireita{
     position: absolute;
@@ -197,7 +202,8 @@ li:hover{
 
   .imgesquerda{
     position:absolute; 
-    /* bottom: 0; */
+    bottom: 0;
+    bottom: 50px; 
     left: 0;
     animation: moveEsquerdaVolta  3s infinite; 
   

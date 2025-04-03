@@ -25,6 +25,7 @@
 
 .imagensjuntas{
     display: flex;
+    width: 70%;
     justify-content: center;
 }
 

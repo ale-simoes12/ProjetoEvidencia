@@ -33,10 +33,10 @@ body{
 
 .conteudo-banner {
     background-image: url('../imagens/bg/bg-hero-section.webp');
-    background-size: cover; /* Faz a imagem cobrir toda a div */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    min-height: 400px; /* Garante que a div tenha pelo menos 400px de altura */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 400px; 
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -54,12 +54,12 @@ body{
 }
 
 .cta-btn {
-    border: 2px solid white; /* Borda branca */
-    border-radius: 25px; /* Bordas arredondadas */
-    background-color: transparent; /* Fundo transparente */
-    color: white; /* Cor do texto do botão */
-    padding: 0.8em 2em; /* Preenchimento responsivo (em) */
-    font-size: 1rem; /* Tamanho da fonte em rem */
+    border: 2px solid white; 
+    border-radius: 25px; 
+    background-color: transparent; 
+    color: white; 
+    padding: 0.8em 2em; 
+    font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease; 
     width: 25%; 
@@ -71,19 +71,19 @@ body{
 
 
 .cta-btn:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* Adiciona um efeito de hover com fundo levemente transparente */
+    background-color: rgba(255, 255, 255, 0.1); 
 }
 
 
 .cta-btn a {
-    color: inherit; /* Herda a cor do botão */
-    text-decoration: none; /* Remove sublinhado do link */
+    color: inherit; 
+    text-decoration: none;
     display: inline-block;
-    width: 100%; /* Ocupa toda a largura do contêiner */
+    width: 100%; 
 }
 
 .cta-btn:hover {
-    background-color: transparent; /* Fica transparente quando passar o mouse */
+    background-color: transparent; 
     color: white; 
 }
 
@@ -103,15 +103,15 @@ body{
 
 
 .cta-btn.prime {
-    color: white; /* Cor do texto branco */
-    background-color: transparent; /* Fundo transparente */
+    color: white; 
+    background-color: transparent; 
 
 }
 
 
 .cta-btn.prime:hover {
-    background-color: red; /* Fundo vermelho ao passar o mouse */
-    color: white; /* Texto branco quando o fundo ficar vermelho */
+    background-color: red; 
+    color: white; 
 }
 
 .cta-btn i {
@@ -232,7 +232,7 @@ body{
 
 }
 
-
+/* 
 @media (max-width: 575px) {
     h4 {
         font-family: 'Signika';
@@ -275,4 +275,4 @@ h4 {
     font-family: 'Signika';
     font-size: 36px;
     font-weight: 800;
-}
+} */

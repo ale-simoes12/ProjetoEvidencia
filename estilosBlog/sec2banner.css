@@ -18,7 +18,9 @@
     padding-bottom: 2em;
 }
 
-
+#blogcardszindex{
+    z-index: -1;
+}
 
 .blogcards{
     display: flex;

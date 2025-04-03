@@ -46,7 +46,7 @@
 .img21div{
     width: 20em;
     height: 12em;
-    background-image: url('/imagens/galeria/gallery-image-4');
+    background-image: url('/imagens/galeria/gallery-image-4-small.webp');
     
 }
 .img22div{
@@ -68,7 +68,66 @@
 
 
 
-@media (min-width: 1200px) {
+
+
+
+
+@media (min-width:800px) {
+
+    .img1div {
+        background-color: black;
+        background-image: url(/imagens/galeria/gallery-image-1-small.webp);
+        max-width: 10em;
+        height: 6em;
+    }
+    .img2div{
+        background-color: black;
+        background-image: url('/imagens/galeria/gallery-image-2-small.webp');
+        width: 10em;
+        height: 6em;
+    }
+    .elemento2{
+        background-color: black;
+        background-image: url('/imagens/galeria/gallery-image-3-small.webp');
+        width: 10em;
+        height: 12.25em;
+    
+    }
+    
+    
+    
+    
+    .img21div{
+        width: 10em;
+        height: 6em;
+        background-image: url('/imagens/galeria/gallery-image-4-small.webp');
+        
+    }
+    .img22div{
+        background-color: black;
+        background-image: url('/imagens/galeria/gallery-image-5-small.webp');
+        width: 10em;
+        height: 6em;
+    }
+    .elemento22{
+        background-color: black;
+        background-image: url('/imagens/galeria/gallery-image-6-small.webp');
+        width: 10em;
+        height: 12.25em;
+       
+    
+    }
+    
+
+    
+
+}
+
+
+
+
+
+@media (min-width: 800px) {
 
 
 .imgsemgrade{
@@ -95,3 +154,60 @@
 
 
 } 
+
+
+
+
+
+
+
+@media (min-width:1331px) {
+
+    .img1div {
+        background-color: black;
+        background-image: url(/imagens/galeria/gallery-image-1-small.webp);
+        max-width: 20em;
+        height: 12em;
+    }
+    .img2div{
+        background-color: black;
+        background-image: url('/imagens/galeria/gallery-image-2-small.webp');
+        width: 20em;
+        height: 12em;
+    }
+    .elemento2{
+        background-color: black;
+        background-image: url('/imagens/galeria/gallery-image-3-small.webp');
+        width: 20em;
+        height: 24.5em;
+    
+    }
+    
+    
+    
+    
+    .img21div{
+        width: 20em;
+        height: 12em;
+        background-image: url('/imagens/galeria/gallery-image-4-small.webp');
+        
+    }
+    .img22div{
+        background-color: black;
+        background-image: url('/imagens/galeria/gallery-image-5-small.webp');
+        width: 20em;
+        height: 12em;
+    }
+    .elemento22{
+        background-color: black;
+        background-image: url('/imagens/galeria/gallery-image-6-small.webp');
+        width: 20em;
+        height: 24.5em;
+       
+    
+    }
+    
+
+    
+
+}
