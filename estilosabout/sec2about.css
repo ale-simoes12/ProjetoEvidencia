@@ -25,24 +25,43 @@
 
 .imagensjuntas{
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: center;
 }
 
 
-.imgvinhoab{
+/* .imgvinhoab{
     height: auto;
-    transform: translateX(3em);
-}
+    transform: translateY(5em);
+} */
 
 
-#botaoabout{
+.conteudocarrafa{
+    display: flex;
+    justify-content: center;
+    transform: translateX(8em);
+    z-index: 1;
+ } 
+
+
+
+
+#botaoSaibaMais{
+    margin-bottom: 1em;
+    display: flex;
     justify-content: center;
 }
 
 
 
 @media (min-width: 1000px) {
+
+    #botaoSaibaMais{
+        margin-bottom: 1em;
+        display: flex;
+        justify-content: start;
+    }
+
     .sec2about{
         display: flex;
         flex-direction: row;

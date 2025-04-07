@@ -1,3 +1,9 @@
+#imagemContato{
+    background-image: url('../imagens/bg/contact-page-banner-image.webp');
+}
+
+
+
 .secaocontato{
     display: flex;
     padding-top: 5em;

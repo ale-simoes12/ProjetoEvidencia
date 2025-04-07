@@ -47,6 +47,21 @@ gap: 2em;
 
  }
 
+
+ .nomeproduto{
+  font-family: 'Signika';
+  color: var(--bs-heading-color); 
+ }
+.descricaoproduto{
+  color: var(--light-gray-color);
+  font-weight: 400;
+}
+
+.valorproduto{
+  font-weight: 700;
+}
+
+
  @media (max-width: 850px) {
   .sec4sex1{
     display: flex;

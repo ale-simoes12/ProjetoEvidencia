@@ -1,4 +1,9 @@
 
+#imagemshop{
+    background-image: url('../imagens/shop/shop-page-banner-image.webp');
+}
+
+
 .sechop{
     display: flex;
     justify-content: center;

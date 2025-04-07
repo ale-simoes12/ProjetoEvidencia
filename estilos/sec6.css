@@ -1,4 +1,4 @@
-.totalsec6{
+.totalsec6 {
     width: 100%;
     /* background-color: black; */
     display: flex;
@@ -7,7 +7,7 @@
 
 }
 
-.conteudosec6{
+.conteudosec6 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,15 +19,15 @@
 }
 
 
-.conteudoimg1{
+.conteudoimg1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2em;
-    
+
 }
 
-.imgs{
+.imgs {
     height: auto;
     width: 100%;
 }
@@ -36,23 +36,37 @@
 
 
 .vinhosec6 {
-    width: 15em; 
+    width: 15em;
     height: 15em;
-    background-color: #f8c8dc; 
-    border-radius: 50%; 
+    background-color: #f8c8dc;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  
+
+
 }
 
 
-.vinhocombola{
+.vinhocombola {
     height: 30em;
     display: flex;
     align-items: center;
     /* background-color: aqua; */
+}
+
+.numero{
+    color: var(--secondary);
+    font-family: 'Cormorant Infant';
+    font-size: 3em;
+
+}
+
+.assunto{
+    color: var(--gray-color);
+    font-family: 'Cormorant Infant';
+    font-weight: 600;
+
 }
 
 
@@ -61,42 +75,50 @@
 
 
 @media (min-width: 628px) {
-    .conteudosec6{
+    .conteudosec6 {
 
         width: 80%;
         display: flex;
         flex-direction: row;
         gap: 1em;
-    
+
     }
-    
-    .descricao{
+
+    .descricao {
         text-align: center;
     }
 
-    .totalsec6{
+    .totalsec6 {
         width: 100%;
         display: flex;
         justify-content: center;
 
     }
 
-    
-   
-    
-    }
 
-
-@media (min-width: 1438px) {
-.conteudosec6{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 20em;
-    align-items: center;
-    }
 
 }
 
 
 
+@media (min-width: 1000px) {
+    .conteudosec6 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+
+@media (min-width: 1438px) {
+    .conteudosec6 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20em;
+        align-items: center;
+    }
+
+}

@@ -140,13 +140,17 @@ body{
     align-items: center;
 }
 
-.secao1{
+.conteudo-historia{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
-
+.conteudo-imagem{
+    display: flex;
+    justify-content: center
+}
 
 .titulo-sec2{
     font-family: 'Signika';
@@ -154,6 +158,27 @@ body{
     font-weight: 800;
 
 }
+
+.subtitulo{
+    font-size: 2em;
+    color: var(--primary);
+    font-weight: bold;
+
+}
+
+.sub-titulo{
+    font-size: 1.5em;
+    color: var(--black-color);
+    font-weight: bold;
+
+}
+
+.descricao{
+    color:var(--gray-color);
+}
+
+
+
 
 
 
@@ -208,6 +233,16 @@ body{
         display: flex;
         gap: 4em;
         align-items: center;
+    }
+    .conteudo-historia{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        text-align: end;
+    }
+
+    #descricaohistoria{
+        text-align: end;
     }
 
     

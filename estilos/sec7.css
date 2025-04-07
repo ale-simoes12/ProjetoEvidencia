@@ -1,5 +1,5 @@
 
-.back{
+.background-secoes{
     background-color: var(--light);
     display: flex;
     flex-direction: column;
@@ -43,4 +43,21 @@
 
 .perfil{
     border-radius: 50%;
+}
+
+
+.nome{
+    color: var(--secondary);
+    font-family: 'Cormorant Infant';
+}
+
+
+.funcao{
+    color: var(--gray-1-color);
+    font-weight: 500;
+}
+
+.tituloartigo{
+    font-family: 'Cormorant Infant';
+    color: var(--bs-heading-color);
 }

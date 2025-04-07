@@ -9,6 +9,29 @@
     gap: 2em;
 
 }
+
+.sec3Titulo{
+    color: var(--primary);
+
+}
+.sec3secsubtitulo{
+    font-family: 'Cormorant Infant';
+    color: var(--bs-heading-color);
+    font-size: 2em;
+}
+.sec3span{
+    font-family: 'Cormorant Infant';
+    color: var(--secondary);
+    font-size: 1em;
+}
+
+
+
+#botaoreadmore{
+    width: 8em;
+
+}
+
 .imgsec3{
   width: 80%;
 }
@@ -106,6 +129,19 @@
 
    }
 
+   .secimg{
+    width: 50%;
+   }
+   .secconteudo{
+    width: 50%;
+   }
+
+
+
+   .descricao-vinho-sec2{
+    text-align: start;
+    }
+
     .secconteudo{
         display: flex;
         justify-content: flex-start;
@@ -116,7 +152,16 @@
 
     
 }
+@media (min-width: 1600px) {
+    .secimg{
+       width: auto;
+      }
+      .secconteudo{
+       width: auto;
+      }
+   
 
+}
 
 .secao2{
     display: flex;
@@ -147,17 +192,10 @@
   }
 
   .imgvinhoab{
-    /* position: relative;  */
     animation: movepracima2  3s infinite; 
-    /* transform: translateX(30px); */
-
-    
   }
 
-  .imgdirblog{
-     transform: translateX(-3em);
-     z-index: -1;
-  }
+  
   
   @keyframes movepracima{
     0% {
