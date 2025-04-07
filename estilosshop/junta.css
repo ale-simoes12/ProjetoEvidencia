@@ -1,14 +1,15 @@
 @media (min-width: 1000px) {
-   .conteudototal{
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center;
+   .conteudototal {
+      /* background-color: aqua; */
+      display: flex;
+      justify-content: center;
    }
-   .sechop{
-    padding-left: 1em;
-    width: 40%;
-    justify-content: start;
-    align-items: start;
+
+   .sechop {
+      padding-left: 1em;
+      width: 40%;
+      justify-content: start;
+      align-items: start;
    }
 
 

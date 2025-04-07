@@ -1,8 +1,8 @@
-body{
+body {
     background-color: var(--bs-body-bg)
 }
 
-.titulo{
+.titulo {
     color: white;
     font-family: 'Cormorant Infant';
     font-size: 1em;
@@ -13,16 +13,16 @@ body{
 
 
 
-.sub{
+.sub {
     color: var(--highlight);
 }
 
-.titulo{
+.titulo {
     font-size: 3.1em;
 
 }
 
-.texto{
+.texto {
     margin-top: 2.5em;
     margin-bottom: 2.5em;
     font-size: 1.5em;
@@ -33,10 +33,10 @@ body{
 
 .conteudo-banner {
     background-image: url('../imagens/bg/bg-hero-section.webp');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    min-height: 400px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -48,70 +48,70 @@ body{
 
 
 
-.banner-btn{
+.banner-btn {
     display: flex;
-    gap: 0.5em; 
+    gap: 0.5em;
 }
 
 .cta-btn {
-    border: 2px solid white; 
-    border-radius: 25px; 
-    background-color: transparent; 
-    color: white; 
-    padding: 0.8em 2em; 
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    padding: 0.8em 2em;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease; 
-    width: 25%; 
-    margin: 1em 0; 
-    padding-left: 2em; 
-    display: flex; 
-    text-align: center; 
+    transition: background-color 0.3s ease;
+    width: 25%;
+    margin: 1em 0;
+    padding-left: 2em;
+    display: flex;
+    text-align: center;
 }
 
 
 .cta-btn:hover {
-    background-color: rgba(255, 255, 255, 0.1); 
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 
 .cta-btn a {
-    color: inherit; 
+    color: inherit;
     text-decoration: none;
     display: inline-block;
-    width: 100%; 
+    width: 100%;
 }
 
 .cta-btn:hover {
-    background-color: transparent; 
-    color: white; 
+    background-color: transparent;
+    color: white;
 }
 
 
 
-.cta-btn.me-3{
+.cta-btn.me-3 {
     background-color: antiquewhite;
     color: red;
 }
 
 
-.cta-btn.me-3:hover{
-    background-color: transparent; 
+.cta-btn.me-3:hover {
+    background-color: transparent;
     color: white
 }
 
 
 
 .cta-btn.prime {
-    color: white; 
-    background-color: transparent; 
+    color: white;
+    background-color: transparent;
 
 }
 
 
 .cta-btn.prime:hover {
-    background-color: red; 
-    color: white; 
+    background-color: red;
+    color: white;
 }
 
 .cta-btn i {
@@ -123,7 +123,7 @@ body{
 /* secao 2 */
 
 
-.historia{
+.historia {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -133,48 +133,48 @@ body{
 }
 
 
-.historia-titulo{
+.historia-titulo {
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
 }
 
-.conteudo-historia{
+.conteudo-historia {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.conteudo-imagem{
+.conteudo-imagem {
     display: flex;
     justify-content: center
 }
 
-.titulo-sec2{
+.titulo-sec2 {
     font-family: 'Signika';
     font-size: 30px;
     font-weight: 800;
 
 }
 
-.subtitulo{
+.subtitulo {
     font-size: 2em;
     color: var(--primary);
     font-weight: bold;
 
 }
 
-.sub-titulo{
+.sub-titulo {
     font-size: 1.5em;
     color: var(--black-color);
     font-weight: bold;
 
 }
 
-.descricao{
-    color:var(--gray-color);
+.descricao {
+    color: var(--gray-color);
 }
 
 
@@ -182,7 +182,7 @@ body{
 
 
 
-.sub2{
+.sub2 {
     color: var(--secondary);
     font-family: 'Cormorant Infant';
 }
@@ -194,20 +194,21 @@ body{
 
 @media (max-width: 768px) {
     .conteudo-banner {
-        min-height: 300px; /
+        min-height: 300px;/
     }
-    .cta-btn{
+
+    .cta-btn {
         width: 30%
     }
 }
 
 @media (max-width: 480px) {
     .conteudo-banner {
-        min-height: 200px; 
+        min-height: 200px;
         padding: 0;
     }
 
-    .cta-btn{
+    .cta-btn {
         width: 50%
     }
 }
@@ -216,54 +217,56 @@ body{
 
 
 @media (min-width: 1000px) {
-    .conteudo-banner{
+    .conteudo-banner {
         height: 100vh;
-        padding-left: 8em; 
+        padding-left: 8em;
     }
 
-    .cta-btn{
+    .cta-btn {
         width: 20%
     }
 
-    .historia{
+    .historia {
         flex-direction: column;
     }
 
-    .secoes{
+    .secoes {
         display: flex;
         gap: 4em;
         align-items: center;
     }
-    .conteudo-historia{
+
+    .conteudo-historia {
         display: flex;
         flex-direction: column;
         align-items: end;
         text-align: end;
     }
 
-    #descricaohistoria{
+    #descricaohistoria {
         text-align: end;
     }
 
-    
+
 }
 
 
 
 @media (max-width: 600px) {
-    .conteudo-banner{
+    .conteudo-banner {
         padding-top: 3em;
         padding-bottom: 3em;
     }
 
-    .banner-btn{
+    .banner-btn {
         display: flex;
         width: 100%;
     }
-    #botaobanner{
+
+    #botaobanner {
         width: 100%;
     }
-    
+
 
 }
 

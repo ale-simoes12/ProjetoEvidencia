@@ -1,35 +1,36 @@
-#imagemContato{
+#imagemContato {
     background-image: url('../imagens/bg/contact-page-banner-image.webp');
 }
 
 
 
-.secaocontato{
+.secaocontato {
     display: flex;
     padding-top: 5em;
     padding-bottom: 5em;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    
+
 }
 
-.infocontato{
+.infocontato {
     padding-left: 1em;
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.div-cont{
+.div-cont {
     display: flex;
     gap: 1em;
     align-items: center;
-    color:var(--primary);
+    color: var(--primary);
     font-weight: 700;
-    
+
 }
 
-.Formulario{
+.Formulario {
     padding-left: 1em;
     padding-right: 1em;
     width: 60%;
@@ -38,40 +39,55 @@
     gap: 2em;
 }
 
-.nome-email{
+.nome-email {
     display: flex;
     gap: 1em;
     width: 100%;
 }
 
-#primeirosinpt{
-    flex: 1; 
+#primeirosinpt {
+    flex: 1;
     width: 50%
 }
 
-.inputseccontato{
+.inputseccontato {
     padding: 10px;
-    border: 2px solid #ddd; 
-    border-radius: 10px; 
+    border: 2px solid #ddd;
+    border-radius: 10px;
     font-size: 16px;
     outline: none;
 }
 
 input::placeholder {
     color: #777;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 .btn-vermelho {
-    background-color: red; 
-    color: white; 
-    border: 2px solid red; 
+    background-color: red;
+    color: white;
+    border: 2px solid red;
     border-radius: 10px;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+}
+
+
+.titulocontato{
+    color: var(--black-color);
+    font-family: 'Cormorant Infant';
+    font-weight: 700;
+}
+.destaquetitulo{
+    color: var(--secondary);
+}
+.textocontato{
+    font-size: 1em;
+    font-weight: 800;
+    padding-right: 5em;
 }
 
 
@@ -82,29 +98,32 @@ input::placeholder {
     width: 100%;
     height: auto;
     background-color: aqua;
-    border: 2px solid red; 
+    border: 2px solid red;
 }
 
-.mapaincorporado{
+.mapaincorporado {
     width: 100%;
 }
 
 
 
 @media (max-width: 500px) {
-    .secaocontato{
+    .secaocontato {
         display: flex;
         flex-direction: column;
         gap: 2em;
     }
-    .Formulario{
+
+    .Formulario {
         width: 100%;
     }
-    .nome-email{
+
+    .nome-email {
         display: flex;
         flex-direction: column;
     }
-    #primeirosinpt{
+
+    #primeirosinpt {
         width: 100%;
     }
 
@@ -113,18 +132,31 @@ input::placeholder {
 
 
 @media (max-width: 600px) {
-    .secaocontato{
+    .secaocontato {
         display: flex;
         flex-direction: column;
         gap: 2em;
     }
-    .Formulario{
+
+    .Formulario {
         width: 100%;
     }
-    .nome-email{
+
+    .nome-email {
         display: flex;
-        
+
     }
-  
+
+
+}
+
+
+
+@media( min-width:1000px){
+    .secaocontato{
+        padding-left: 15em;
+        padding-right: 15em;
+    }
+
 
 }

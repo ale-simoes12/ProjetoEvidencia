@@ -1,5 +1,4 @@
-
-.background-secoes{
+.background-secoes {
     background-color: var(--light);
     display: flex;
     flex-direction: column;
@@ -7,11 +6,11 @@
     height: auto;
     padding-top: 3em;
     padding-bottom: 3em;
-  
+
 
 }
 
-.sec7{
+.sec7 {
     margin-top: 5em;
     flex-wrap: wrap;
     display: flex;
@@ -21,7 +20,7 @@
 }
 
 
-.perfils{
+.perfils {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -33,7 +32,7 @@
 
 
 
-#perfils-centro{
+#perfils-centro {
     align-items: center;
 }
 
@@ -41,23 +40,34 @@
 
 
 
-.perfil{
+.perfil {
     border-radius: 50%;
 }
 
 
-.nome{
+.nome {
     color: var(--secondary);
     font-family: 'Cormorant Infant';
 }
 
 
-.funcao{
+.funcao {
     color: var(--gray-1-color);
     font-weight: 500;
 }
 
-.tituloartigo{
+.tituloartigo {
     font-family: 'Cormorant Infant';
     color: var(--bs-heading-color);
+}
+
+
+.titutlogeral{
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.subtitulogeral{
+    font-family: 'Cormorant Infant';
+    font-size: 52px;
 }

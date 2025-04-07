@@ -8,7 +8,6 @@ document.addEventListener('mousemove', function(e) {
     bola1.style.left = `${mouseX}px`;
     bola1.style.top = `${mouseY}px`;
   
-    // Bola 2 (com atraso)
     const bola2 = document.querySelector('.bola2');
     setTimeout(() => {
       bola2.style.left = `${mouseX}px`;

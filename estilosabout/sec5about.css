@@ -1,5 +1,4 @@
-
-.videoconteudo{
+.videoconteudo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,20 +8,20 @@
     height: 30em;
 }
 
-.play-btn{
+.play-btn {
     border-radius: 50%;
     width: 5em;
     height: 5em;
     background-color: var(--secondary);
 }
 
-.play-btn{
+.play-btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.botonplay{
+.botonplay {
     width: 2em;
     height: 2em;
 }
@@ -75,5 +74,5 @@
     color: white;
     font-size: 30px;
     cursor: pointer;
-    
+
 }

@@ -1,4 +1,4 @@
-.lerartigo{
+.lerartigo {
     width: 100%;
     display: flex;
     align-items: start;
@@ -6,7 +6,7 @@
 }
 
 
-.sec2banner{
+.sec2banner {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -18,18 +18,18 @@
     padding-bottom: 2em;
 }
 
-#blogcardszindex{
+#blogcardszindex {
     z-index: -1;
 }
 
-.blogcards{
+.blogcards {
     display: flex;
     justify-content: center;
 }
 
 
-#cardblog{
+#cardblog {
     flex: 1 1 calc(33.33% - 16px);
     max-width: calc(33.33% - 16px);
-    min-width: 250px; 
+    min-width: 250px;
 }

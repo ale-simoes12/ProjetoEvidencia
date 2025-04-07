@@ -1,13 +1,13 @@
-.produtos-visiveis{
+.produtos-visiveis {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     gap: 1em;
-    
+
 
 }
 
-.botaoadd{
-    background-color:var(--secondary);
+.botaoadd {
+    background-color: var(--secondary);
     color: white;
     width: 60%;
     border: 2px solid var(--secondary);
@@ -16,7 +16,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.botaoadd:hover{
+.botaoadd:hover {
 
     background-color: transparent;
     color: var(--secondary);
@@ -24,14 +24,14 @@
 }
 
 
-.produtos-totais{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+.produtos-totais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
-.opçoes{
+.opçoes {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,26 +39,26 @@
     padding-bottom: 1em;
 }
 
-.dupla{
+.dupla {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     gap: 5em;
-    
+
 }
 
-.produtocard{
+.produtocard {
     background-color: var(--light);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 20em;
     padding-top: 0.5em;
- 
+
 }
 
-.descricaocards{
+.descricaocards {
     width: 100%;
     background-color: white;
     display: flex;
@@ -72,13 +72,14 @@
 /* 
 drop */
 
-.meudrop{
+.meudrop {
     display: flex;
     align-items: center;
     gap: 0.5em;
 
 }
-.textodofiltro{
+
+.textodofiltro {
     margin: 0;
 
 }
@@ -101,39 +102,39 @@ drop */
 
 
 /* botao fazer virar block */
-.makeblock{
+.makeblock {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1em;
-    padding-top:3em;
+    padding-top: 3em;
 
 }
 
-.textoVermelho{
+.textoVermelho {
     color: var(--secondary);
     margin: 0;
 }
 
 
-.produtos-naovisiveis{
+.produtos-naovisiveis {
     padding-top: 1em;
     display: none;
 }
 
-.pairelativo{
+.pairelativo {
     position: relative;
     width: 100%;
 }
 
-.promocao{
+.promocao {
     position: absolute;
-    right: 0; 
+    right: 0;
     margin-top: 0.5em;
     margin-right: 0.5em;
-    
-   
-   
+
+
+
 
     background-color: black;
     color: white;
@@ -142,23 +143,23 @@ drop */
 
 
 
-.promocao1{
+.promocao1 {
     position: absolute;
     text-align: center;
-    right: 0; 
+    right: 0;
     margin-top: 0.5em;
     margin-right: 0.5em;
-    width: 39.5px; 
+    width: 39.5px;
     background-color: var(--secondary);
     color: white;
 }
 
 
-.promocao2{
-   
+.promocao2 {
+
     position: absolute;
     right: 0;
-    
+
     margin-top: 3em;
     margin-right: 0.5em;
     background-color: #e8da5e;
@@ -167,10 +168,7 @@ drop */
 }
 
 
-#offer{
+#offer {
     background-color: #e8da5e;
     color: black;
 }
-
-
-

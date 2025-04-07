@@ -1,4 +1,4 @@
-.imagemProduto{
+.imagemProduto {
     display: flex;
     justify-content: center;
     background-color: var(--light);
@@ -8,16 +8,16 @@
     height: auto;
 }
 
-.sec5{
+.sec5 {
     display: flex;
     padding-top: 5em;
     padding-bottom: 5em;
-    
+
     justify-content: center;
-    
+
 }
 
-.titulosec5{
+.titulosec5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,23 +26,23 @@
 }
 
 
-.produtossec5{
+.produtossec5 {
     display: flex;
     flex-direction: column;
     gap: 2em;
 
 }
 
-.conteudo-sec5{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+.conteudo-sec5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
 
-.inforProduto{
+.inforProduto {
     padding-top: 2em;
     display: flex;
     flex-direction: column;
@@ -53,25 +53,25 @@
 
 
 @media (min-width: 1000px) {
- .titulosec5{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 8em;
- }
+    .titulosec5 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 8em;
+    }
 
- .conteudo-sec5{
-    align-items: start;
- }
+    .conteudo-sec5 {
+        align-items: start;
+    }
 
-  
- .produtossec5{
 
-    display: flex;
-    flex-direction: row;
-    gap: 5em;
- }
+    .produtossec5 {
 
-      
-} 
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+    }
+
+
+}

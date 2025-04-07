@@ -1,150 +1,161 @@
-
-.sec4{
-padding-top: 5em;
-padding-bottom: 5em;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-gap: 2em;
+.sec4 {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2em;
 }
-.sec4sex1{
-   display: flex;
-   flex-direction: column-reverse;
-   gap: 5em;
-    
-} 
 
-.sec4sex2{
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 5em;
-     
- } 
- 
+.sec4sex1 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5em;
 
- .conteudo-sec4{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
+}
+
+.sec4sex2 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5em;
+
+}
 
 
- .secimg{
-   display: flex;
-   justify-content: center;
- }
+.conteudo-sec4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
- .imgssec4{
-   width: 100%;
- }
 
- .secoes{
+.secimg {
+  display: flex;
+  justify-content: center;
+}
+
+.imgssec4 {
+  width: 100%;
+}
+
+.secoes {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
- }
+}
 
 
- .nomeproduto{
+.nomeproduto {
   font-family: 'Signika';
-  color: var(--bs-heading-color); 
- }
-.descricaoproduto{
+  color: var(--bs-heading-color);
+}
+
+.descricaoproduto {
   color: var(--light-gray-color);
   font-weight: 400;
 }
 
-.valorproduto{
+.valorproduto {
   font-weight: 700;
 }
 
 
- @media (max-width: 850px) {
-  .sec4sex1{
+@media (max-width: 850px) {
+  .sec4sex1 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .sec3sec{
-    text-align: center;
-  }
-  .sec4sex2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-   #diminuirvinho{
-    width: 80%;
-   }
-   .diminuir{
-    width: 80%;
-   }
-   .descricao{
-    text-align: center;
-   }
-   h5{
-    margin-left: 1em; 
-   }
 
-   p{
-    margin-left: 0;
-    margin-left: 0.5em; 
-   }
-   .discover{
+  .sec3sec {
+    text-align: center;
+  }
+
+  .sec4sex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #diminuirvinho {
+    width: 80%;
+  }
+
+  .diminuir {
+    width: 80%;
+  }
+
+  .descricao {
+    text-align: center;
+  }
+
+  h5 {
     margin-left: 1em;
-   }
+  }
+
+  p {
+    margin-left: 0;
+    margin-left: 0.5em;
+  }
+
+  .discover {
+    margin-left: 1em;
+  }
 
 
- }
+}
 
 
- @media (min-width: 1000px) {
-   .sec4{
+@media (min-width: 1000px) {
+  .sec4 {
     display: flex;
     flex-direction: row;
-   }
-   
+    justify-content: center;
+  }
 
-   .sec4sex1{
+
+  .sec4sex1 {
     display: flex;
     flex-direction: column;
     gap: 5em;
-     
- } 
- 
- .sec4sex2{
-     display: flex;
-     flex-direction: column-reverse;
-     gap: 5em;
-      
+
   }
 
-  .secoes{
+  .sec4sex2 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5em;
+
+  }
+
+  .secoes {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
-   }
-  
-  
-     
- }
+    padding-right: 5em;
+    padding-left: 5em;
+
+  }
 
 
-  /* animacao */
- .imgssec4{
-  position: relative; 
+
+}
+
+
+/* animacao */
+.imgssec4 {
+  position: relative;
   animation: moveDireitaVolta 3s infinite;
 
 }
 
-#imgani2{
-  position: relative; 
-  animation: moveEsquerdaeVolta   3s infinite;
+#imgani2 {
+  position: relative;
+  animation: moveEsquerdaeVolta 3s infinite;
 }
 
 
@@ -152,16 +163,18 @@ gap: 2em;
 
 @keyframes moveEsquerdaeVolta {
   0% {
-      transform: translateX(0); 
+    transform: translateX(0);
   }
+
   50% {
-      transform: translateX(-30px); 
+    transform: translateX(-30px);
   }
+
   100% {
-      transform: translateX(0); 
+    transform: translateX(0);
   }
 }
- 
+
 
 
 
@@ -169,30 +182,29 @@ gap: 2em;
 
 @keyframes moveEsquerdaVolta {
   0% {
-      transform: translateX(0); 
+    transform: translateX(0);
   }
+
   50% {
-      transform: translateX(-30px); 
+    transform: translateX(-30px);
   }
+
   100% {
-      transform: translateX(0); 
+    transform: translateX(0);
   }
 }
- 
 
- @keyframes moveDireitaVolta {
+
+@keyframes moveDireitaVolta {
   0% {
-      transform: translateX(0); 
+    transform: translateX(0);
   }
+
   50% {
-      transform: translateX(30px); 
+    transform: translateX(30px);
   }
+
   100% {
-      transform: translateX(0); 
+    transform: translateX(0);
   }
 }
- 
-
-
-
-

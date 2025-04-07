@@ -1,4 +1,4 @@
-.sec3{
+.sec3 {
     background-color: var(--light);
     display: flex;
     flex-direction: column-reverse;
@@ -10,16 +10,18 @@
 
 }
 
-.sec3Titulo{
+.sec3Titulo {
     color: var(--primary);
 
 }
-.sec3secsubtitulo{
+
+.sec3secsubtitulo {
     font-family: 'Cormorant Infant';
     color: var(--bs-heading-color);
     font-size: 2em;
 }
-.sec3span{
+
+.sec3span {
     font-family: 'Cormorant Infant';
     color: var(--secondary);
     font-size: 1em;
@@ -27,16 +29,16 @@
 
 
 
-#botaoreadmore{
+#botaoreadmore {
     width: 8em;
 
 }
 
-.imgsec3{
-  width: 80%;
+.imgsec3 {
+    width: 80%;
 }
 
-.secconteudo{
+.secconteudo {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -45,33 +47,34 @@
 
 }
 
-#botaover{
+#botaover {
     width: 7em;
-    
-    
+
+
 }
 
-.data{
+.data {
     display: flex;
- 
+
     justify-content: center;
     align-items: center;
     gap: 1.5em;
 }
 
 
-.valordta{
+.valordta {
     margin: 0;
     align-self: center;
 }
-.traco{
-   
+
+.traco {
+
     background-color: black;
     width: 8em;
     height: 2px;
 }
 
-.secao1{
+.secao1 {
     margin-left: 2em;
     margin-right: 2em;
     width: 100%;
@@ -80,7 +83,7 @@
     align-items: center;
 }
 
-#margemuva{
+#margemuva {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -90,59 +93,67 @@
 }
 
 @media (max-width: 500px) {
-    .secao1{
+    .secao1 {
         width: 100%;
     }
-    #uvamenor{
+
+    #uvamenor {
         width: 20em;
     }
-    .descricao{
+
+    .descricao {
         font-size: 1em;
     }
 
-    .secao1{
+    .secao1 {
         width: 80%;
     }
-    .texto{
+
+    .texto {
         margin-left: 1em;
         margin-right: 1em;
     }
-    .titulo{
+
+    .titulo {
         margin-left: 1em;
         margin-right: 1em;
 
     }
-    .sec3sec{
+
+    .sec3sec {
         margin-left: 1em;
         margin-right: 1em;
 
     }
-    
+
 }
 
 
 @media (min-width: 1000px) {
-   .sec3{
-    display: flex;
-    flex-direction: row;
-    gap: 5em;
+    .sec3 {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5em;
 
-   }
-
-   .secimg{
-    width: 50%;
-   }
-   .secconteudo{
-    width: 50%;
-   }
-
-
-
-   .descricao-vinho-sec2{
-    text-align: start;
     }
 
-    .secconteudo{
+    .secimg {
+        width: 30% !important;
+    }
+
+    .secconteudo {
+        width: 30%!important;
+    }
+
+
+
+    .descricao-vinho-sec2 {
+        text-align: start;
+    }
+
+    .secconteudo {
         display: flex;
         justify-content: flex-start;
         text-align: start;
@@ -150,91 +161,87 @@
     }
 
 
-    
+
 }
+
 @media (min-width: 1600px) {
-    .secimg{
-       width: auto;
-      }
-      .secconteudo{
-       width: auto;
-      }
-   
+    .secimg {
+        width: auto;
+    }
+
+    .secconteudo {
+        width: auto;
+    }
+
 
 }
 
-.secao2{
+.secao2 {
     display: flex;
     justify-content: center;
 }
 
-.igmsec2{
-    position: relative; 
-    animation: movepracima  3s infinite;
+.igmsec2 {
+    position: relative;
+    animation: movepracima 3s infinite;
 
 }
 
-.secimg{
+.secimg {
     display: flex;
     justify-content: center;
 }
 
-.imgsec3{
+.imgsec3 {
     /* display: flex;
     justify-content: center; */
-    position: relative; 
-    animation: movepracima  3s infinite;
-  }
+    position: relative;
+    animation: movepracima 3s infinite;
+}
 
-  .produto{
-    position: relative; 
-    animation: movepracima  3s infinite;
-  }
+.produto {
+    position: relative;
+    animation: movepracima 3s infinite;
+}
 
-  .imgvinhoab{
-    animation: movepracima2  3s infinite; 
-  }
+.imgvinhoab {
+    animation: movepracima2 3s infinite;
+}
 
-  
-  
-  @keyframes movepracima{
+
+
+@keyframes movepracima {
     0% {
-        transform: translateY(0) ; 
-    }
-    50% {
-        transform: translateY(30px); 
-    }
-    100% {
-        transform: translateY(0); 
-    }
-  }
-
-
-  @keyframes movepracima2{
-    
-    0% {
-       
         transform: translateY(0);
-       
     }
+
     50% {
-        
         transform: translateY(30px);
-        
     }
+
     100% {
-        
         transform: translateY(0);
-        
     }
-  }
+}
 
 
+@keyframes movepracima2 {
 
+    0% {
 
+        transform: translateY(0);
 
-   
+    }
 
+    50% {
 
+        transform: translateY(30px);
 
+    }
 
+    100% {
+
+        transform: translateY(0);
+
+    }
+}
