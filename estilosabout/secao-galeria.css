@@ -1,9 +1,9 @@
-.sec4total {
+.secao-galeria-total {
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
-.elementos3 {
+.conteudo-imagens {
     width: auto;
     display: flex;
     flex-direction: column;
@@ -13,28 +13,28 @@
 
 }
 
-.elementos1 {
+.conteudo-imagens-par {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
 }
 
 
-.img1div {
+.imagem1 {
     background-color: black;
     background-image: url('/imagens/galeria/gallery-image-1-small.webp');
     width: 20em;
     height: 12em;
 }
 
-.img2div {
+.imagem2 {
     background-color: black;
     background-image: url('/imagens/galeria/gallery-image-2-small.webp');
     width: 20em;
     height: 12em;
 }
 
-.elemento2 {
+.imagem3 {
     background-color: black;
     background-image: url('/imagens/galeria/gallery-image-3-small.webp');
     width: 20em;
@@ -45,21 +45,21 @@
 
 
 
-.img21div {
+.imagem4 {
     width: 20em;
     height: 12em;
     background-image: url('/imagens/galeria/gallery-image-4-small.webp');
 
 }
 
-.img22div {
+.imagem5 {
     background-color: black;
     background-image: url('/imagens/galeria/gallery-image-5-small.webp');
     width: 20em;
     height: 12em;
 }
 
-.elemento22 {
+.imagem6 {
     background-color: black;
     background-image: url('/imagens/galeria/gallery-image-6-small.webp');
     width: 20em;
@@ -139,7 +139,7 @@
 }
 
 
-.sec4image {
+.imagens-cover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -150,7 +150,7 @@
 
 
 
-.imgsemgrade {
+.secao-imagens-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -189,21 +189,21 @@
 
 @media (min-width:800px) {
 
-    .img1div {
+    .imagem1 {
         background-color: black;
         background-image: url(/imagens/galeria/gallery-image-1-small.webp);
         max-width: 10em;
         height: 6em;
     }
 
-    .img2div {
+    .imagem2 {
         background-color: black;
         background-image: url('/imagens/galeria/gallery-image-2-small.webp');
         width: 10em;
         height: 6em;
     }
 
-    .elemento2 {
+    .imagem3 {
         background-color: black;
         background-image: url('/imagens/galeria/gallery-image-3-small.webp');
         width: 10em;
@@ -214,21 +214,21 @@
 
 
 
-    .img21div {
+    .imagem4 {
         width: 10em;
         height: 6em;
         background-image: url('/imagens/galeria/gallery-image-4-small.webp');
 
     }
 
-    .img22div {
+    .imagem5 {
         background-color: black;
         background-image: url('/imagens/galeria/gallery-image-5-small.webp');
         width: 10em;
         height: 6em;
     }
 
-    .elemento22 {
+    .imagem6 {
         background-color: black;
         background-image: url('/imagens/galeria/gallery-image-6-small.webp');
         width: 10em;
@@ -258,7 +258,7 @@
     }
 
 
-    .imgsemgrade {
+    .secao-imagens-div {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -269,7 +269,7 @@
     }
 
 
-    .elementos3 {
+    .conteudo-imagens {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -291,21 +291,21 @@
 
 @media (min-width:1331px) {
 
-    .img1div {
+    .imagem1 {
         background-color: black;
         background-image: url(/imagens/galeria/gallery-image-1-small.webp);
         max-width: 20em;
         height: 12em;
     }
 
-    .img2div {
+    .imagem2 {
         background-color: black;
         background-image: url('/imagens/galeria/gallery-image-2-small.webp');
         width: 20em;
         height: 12em;
     }
 
-    .elemento2 {
+    .imagem3 {
         background-color: black;
         background-image: url('/imagens/galeria/gallery-image-3-small.webp');
         width: 20em;
@@ -316,21 +316,21 @@
 
 
 
-    .img21div {
+    .imagem4 {
         width: 20em;
         height: 12em;
         background-image: url('/imagens/galeria/gallery-image-4-small.webp');
 
     }
 
-    .img22div {
+    .imagem5 {
         background-color: black;
         background-image: url('/imagens/galeria/gallery-image-5-small.webp');
         width: 20em;
         height: 12em;
     }
 
-    .elemento22 {
+    .imagem6 {
         background-color: black;
         background-image: url('/imagens/galeria/gallery-image-6-small.webp');
         width: 20em;
