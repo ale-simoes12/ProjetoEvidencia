@@ -52,8 +52,16 @@
     justify-content: center;
 }
 
+
 .vermelho-title{
     color: var(--secondary);
+}
+
+.texto-sip{
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--light-gray-color);
+
 }
 
 @media (min-width: 600px) {}

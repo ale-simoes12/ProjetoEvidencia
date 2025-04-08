@@ -1,4 +1,4 @@
-.sec4 {
+.conteudo-discover {
   padding-top: 5em;
   padding-bottom: 5em;
   display: flex;
@@ -7,14 +7,14 @@
   gap: 2em;
 }
 
-.sec4sex1 {
+.conteudo-vinho-branco {
   display: flex;
   flex-direction: column-reverse;
   gap: 5em;
 
 }
 
-.sec4sex2 {
+.conteudo-vinho-vermelho {
   display: flex;
   flex-direction: column-reverse;
   gap: 5em;
@@ -22,7 +22,7 @@
 }
 
 
-.conteudo-sec4 {
+.conteudo-titulo-secao {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,16 +30,16 @@
 }
 
 
-.secimg {
+.imagem-cowine {
   display: flex;
   justify-content: center;
 }
 
-.imgssec4 {
+.imgsconteudo-discover {
   width: 100%;
 }
 
-.secoes {
+.secao-imagem-textos {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,17 +64,17 @@
 
 
 @media (max-width: 850px) {
-  .sec4sex1 {
+  .conteudo-vinho-branco {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .sec3sec {
+  .secao-cowiniesec {
     text-align: center;
   }
 
-  .sec4sex2 {
+  .conteudo-vinho-vermelho {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,28 +110,28 @@
 
 
 @media (min-width: 1000px) {
-  .sec4 {
+  .conteudo-discover {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
 
 
-  .sec4sex1 {
+  .conteudo-vinho-branco {
     display: flex;
     flex-direction: column;
     gap: 5em;
 
   }
 
-  .sec4sex2 {
+  .conteudo-vinho-vermelho {
     display: flex;
     flex-direction: column-reverse;
     gap: 5em;
 
   }
 
-  .secoes {
+  .secao-imagem-textos {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -147,7 +147,7 @@
 
 
 /* animacao */
-.imgssec4 {
+.imgsconteudo-discover {
   position: relative;
   animation: moveDireitaVolta 3s infinite;
 

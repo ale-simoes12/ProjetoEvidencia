@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
     background-color: var(--light);
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
@@ -40,7 +42,7 @@
 
 }
 
-#imgiconsec3 {
+#imgiconsecao-cowinie {
     width: 3em;
     height: 3em;
 }
@@ -48,6 +50,8 @@
 
 .original-texto {
     padding-left: 3em;
+    color: var(--gray-1-color);
+    font-weight: 600;
 }
 
 #vinhoamarelo {

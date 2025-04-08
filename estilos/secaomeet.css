@@ -1,4 +1,4 @@
-.background-secoes {
+.background-secao-imagem-textos {
     background-color: var(--light);
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
 
 }
 
-.sec7 {
+.secao-meet {
     margin-top: 5em;
     flex-wrap: wrap;
     display: flex;
@@ -71,4 +71,9 @@
     font-family: 'Cormorant Infant';
     text-align: center;
     font-size: 52px;
+}
+
+.blog {
+    height: auto;
+    width: auto;
 }

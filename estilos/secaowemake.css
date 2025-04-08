@@ -8,7 +8,7 @@
     height: auto;
 }
 
-.sec5 {
+.secao-we-make {
     display: flex;
     padding-top: 5em;
     padding-bottom: 5em;
@@ -17,7 +17,7 @@
 
 }
 
-.titulosec5 {
+.titulosecao-we-make {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,14 +26,14 @@
 }
 
 
-.produtossec5 {
+.produtossecao-we-make {
     display: flex;
     flex-direction: column;
     gap: 2em;
 
 }
 
-.conteudo-sec5 {
+.conteudo-secao-we-make {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +53,7 @@
 
 
 @media (min-width: 1000px) {
-    .titulosec5 {
+    .titulosecao-we-make {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -61,7 +61,7 @@
         gap: 8em;
     }
 
-    .conteudo-sec5 {
+    .conteudo-secao-we-make {
         padding-left: 3em;
         align-items: start;
     }
@@ -72,7 +72,7 @@
     
 
 
-    .produtossec5 {
+    .produtossecao-we-make {
 
         display: flex;
         flex-direction: row;

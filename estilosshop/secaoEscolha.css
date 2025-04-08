@@ -10,7 +10,7 @@
 }
 
 .filtragem {
-
+    font-family: 'Cormorant Infant';
     height: auto;
     background-color: var(--light);
     display: flex;
@@ -51,6 +51,7 @@
 
 .filtro {
     width: 100%;
+    
 }
 
 .barra {
@@ -72,13 +73,23 @@
     background: var(--light);
     padding: 5px 10px;
     border: 2px solid gray;
-    border-radius: 15px;
+    border-radius: 30px;
     margin: 5px 2px;
     font-size: 1em;
     cursor: pointer;
+    font-weight: 900;
+    font-size: 1em;
 }
 
 .tags span:hover {
     border: 2px solid var(--secondary);
+
+}
+
+
+.categorias li {
+    font-weight: 900;
+    font-size: 1.5em;
+
 
 }

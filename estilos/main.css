@@ -1,12 +1,12 @@
 @import url("header.css");
 @import url(corpo.css);
-@import url(sec3.css);
-@import url(sec4.css);
-@import url(sec5.css);
-@import url(sec6.css);
-@import url(sec7.css);
-@import url(sec9.css);
-@import url(sec10.css);
+@import url(secaocowine.css);
+@import url(secaodiscover.css);
+@import url(secaowemake.css);
+@import url(secaorecognitions.css);
+@import url(secaomeet.css);
+@import url(secaocarrosel.css);
+@import url(footer.css);
 
 :root {
   --body-font: "Reddit Sans", sans-serif;
@@ -100,7 +100,7 @@ li:hover {
   height: 100%;
 }
 
-#sec3relativa {
+#secao-cowinierelativa {
   position: relative;
 }
 
@@ -123,7 +123,7 @@ li:hover {
   animation: direota 3s infinite;
 }
 
-#sec4relativa {
+#conteudo-discoverrelativa {
   position: relative;
 }
 

@@ -1,4 +1,4 @@
-.sec3 {
+.secao-cowinie {
     background-color: var(--light);
     display: flex;
     flex-direction: column-reverse;
@@ -10,18 +10,18 @@
 
 }
 
-.sec3Titulo {
+.secao-cowinieTitulo {
     color: var(--primary);
 
 }
 
-.sec3secsubtitulo {
+.secao-cowiniesecsubtitulo {
     font-family: 'Cormorant Infant';
     color: var(--bs-heading-color);
     font-size: 2em;
 }
 
-.sec3span {
+.secao-cowiniespan {
     font-family: 'Cormorant Infant';
     color: var(--secondary);
     font-size: 1em;
@@ -34,11 +34,11 @@
 
 }
 
-.imgsec3 {
+.imgsecao-cowinie {
     width: 80%;
 }
 
-.secconteudo {
+.conteudo-cowine {
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -120,7 +120,7 @@
 
     }
 
-    .sec3sec {
+    .secao-cowiniesec {
         margin-left: 1em;
         margin-right: 1em;
 
@@ -130,7 +130,7 @@
 
 
 @media (min-width: 1000px) {
-    .sec3 {
+    .secao-cowinie {
         display: flex;
         width: 100%;
         flex-direction: row;
@@ -139,11 +139,11 @@
 
     }
 
-    .secimg {
+    .imagem-cowine {
         width: 30% !important;
     }
 
-    .secconteudo {
+    .conteudo-cowine {
         width: 30%!important;
     }
 
@@ -153,7 +153,7 @@
         text-align: start;
     }
 
-    .secconteudo {
+    .conteudo-cowine {
         display: flex;
         justify-content: flex-start;
         text-align: start;
@@ -165,11 +165,11 @@
 }
 
 @media (min-width: 1600px) {
-    .secimg {
+    .imagem-cowine {
         width: auto;
     }
 
-    .secconteudo {
+    .conteudo-cowine {
         width: auto;
     }
 
@@ -181,18 +181,18 @@
     justify-content: center;
 }
 
-.igmsec2 {
+.imagem-frash {
     position: relative;
     animation: movepracima 3s infinite;
 
 }
 
-.secimg {
+.imagem-cowine {
     display: flex;
     justify-content: center;
 }
 
-.imgsec3 {
+.imgsecao-cowinie {
     /* display: flex;
     justify-content: center; */
     position: relative;
