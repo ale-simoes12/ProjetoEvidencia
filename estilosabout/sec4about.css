@@ -4,7 +4,7 @@
 }
 
 .elementos3 {
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,6 +153,16 @@
 .imgsemgrade {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+
+#area-bola {
+    display: flex;
+    flex-direction: column;
+    width: 80% !important;
     gap: 1em;
 
 }
@@ -237,7 +247,15 @@
 @media (min-width: 800px) {
 
 
+    #area-bola{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
 
+    }
 
 
     .imgsemgrade {
