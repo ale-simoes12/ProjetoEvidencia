@@ -2,3 +2,48 @@
 @import url(sec3about.css);
 @import url(sec4about.css);
 @import url(sec5about.css);
+
+/* #bola-azul {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 99999;
+  } */
+
+  #area-bola {
+    position: relative;
+  }
+  
+  #bola-azul {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(0, 100, 200, 0.4);
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 9999;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+
+  .textobola{   
+    padding-top: 6em;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: 0;
+  }
+  
