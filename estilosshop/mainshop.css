@@ -1,3 +1,24 @@
-@import url(sec2sehop.css);
-@import url(sec2cards.css);
+@import url(secaoEscolha.css);
+@import url(secaoProdutos.css);
 @import url(junta.css);
+
+
+
+@media (min-width: 1000px) {
+    .conteudo-total-shop {
+       /* background-color: aqua; */
+       display: flex;
+       justify-content: center;
+    }
+ 
+    .conteudo-escolha-shop {
+       padding-left: 1em;
+       width: 40%;
+       justify-content: start;
+       align-items: start;
+    }
+ 
+ 
+ 
+ 
+ }

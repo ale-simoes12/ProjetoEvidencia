@@ -13,18 +13,16 @@
   --title-font: "Reddit Sans", sans-serif;
   --content-font: "Reddit Sans", sans-serif;
   --meta-font: "Reddit Sans", sans-serif;
-  --primary: #050A3A;
-  --secondary: #C00820;
-  --light: #FAF6F3;
-  --highlight: #E8DA5C;
+  --primary: #050a3a;
+  --secondary: #c00820;
+  --light: #faf6f3;
+  --highlight: #e8da5c;
   --white-color: #ffffff;
   --black-color: #000000;
   --gray-color: #303030;
-  --light-gray-color: #A1A1A1;
+  --light-gray-color: #a1a1a1;
   --gray-1-color: #585858;
-
 }
-
 
 p {
   font-size: 1.5em;
@@ -50,17 +48,12 @@ h5 {
   font-size: 2em;
 }
 
-
-
-
 li:hover {
   color: var(--secondary);
 }
 
-
 #falupa {
   color: var(--primary);
-
 }
 
 .bola1 {
@@ -86,26 +79,20 @@ li:hover {
   transition: transform 0.3s ease-out;
 }
 
-
 #descricaoblog {
   font-family: "Cormorant Infant", serif;
   font-size: 1.5em;
   font-weight: 700;
 }
 
-
 #imagem-bw {
   filter: grayscale(100%);
   transition: filter 0.5s ease;
-
 }
 
 #imagem-bw:hover {
   filter: grayscale(0%);
 }
-
-
-
 
 .imagensback {
   position: relative;
@@ -113,56 +100,44 @@ li:hover {
   height: 100%;
 }
 
-
 #sec3relativa {
   position: relative;
-
 }
 
-.sec3dir {
+.imagem-folha-direita {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.sec3left {
+.imagem-folha-esquerda {
   position: absolute;
   top: 0;
   left: 0;
-
 }
 
-.seccbot {
+.imagem-folha-baixo {
   position: absolute;
   bottom: 0;
   right: 0;
   animation: direota 3s infinite;
-
-
-
 }
-
-
-
-
-
-
-
 
 #sec4relativa {
   position: relative;
-
 }
 
-.folhadirre {
+.folha-direita {
   position: absolute;
   right: 0;
+  z-index: -1;
 }
 
-.folhaesqre {
+.folha-esquerda {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: -1;
 }
 
 #carrosel2 {
@@ -170,7 +145,7 @@ li:hover {
   height: 100%;
 }
 
-.img-dir-ca {
+.img-dir-carrosel {
   position: absolute;
   z-index: 1;
   top: 0;
@@ -178,21 +153,18 @@ li:hover {
   animation: moveEsquerdaVolta 3s infinite;
 }
 
-.img-esq-ca {
+.img-esq-carrosel {
   z-index: 1;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-
-
-
 .rodape {
   position: relative;
 }
 
-/* .footersup{
+/* .footer-superior{
     position: relative;
   } */
 
@@ -208,9 +180,7 @@ li:hover {
   bottom: 50px;
   left: 0;
   animation: moveEsquerdaVolta 3s infinite;
-
 }
-
 
 @keyframes moveEsquerdaVolta {
   0% {
@@ -225,9 +195,6 @@ li:hover {
     transform: translateX(0);
   }
 }
-
-
-
 
 @keyframes direota {
   0% {

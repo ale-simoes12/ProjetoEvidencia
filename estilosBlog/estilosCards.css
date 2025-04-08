@@ -6,7 +6,7 @@
 }
 
 
-.sec2banner {
+.conteudo-blog-cards {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -25,6 +25,9 @@
 .blogcards {
     display: flex;
     justify-content: center;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 3em;
 }
 
 
@@ -32,4 +35,22 @@
     flex: 1 1 calc(33.33% - 16px);
     max-width: calc(33.33% - 16px);
     min-width: 250px;
+}
+
+
+.data-blog{
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+   
+}
+
+
+@media (min-width: 868px) {
+    .data-blog{
+        margin-top: 0.5em;
+        margin-left: 0em;
+       
+    }
+
+
 }

@@ -2,6 +2,7 @@ const area = document.getElementById('area-bola');
 const bola = document.getElementById('bola-azul');
 const bola1 = document.querySelector('.bola1');
 const bola2 = document.querySelector('.bola2');
+bola.style.display = 'none';  
 
 area.addEventListener('mouseenter', () => {
   bola.style.display = 'block';  

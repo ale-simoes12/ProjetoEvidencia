@@ -62,8 +62,14 @@
     }
 
     .conteudo-sec5 {
+        padding-left: 3em;
         align-items: start;
     }
+    .subtitulogeral{
+        text-align: start !important;
+    }
+
+    
 
 
     .produtossec5 {
